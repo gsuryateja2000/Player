@@ -13,7 +13,7 @@ jobs:
 
       - name: Extract SPACEQ Player ZIP
         run: |
-          unzip -o SPACEQ-Pure-Player-2.6.0-Offline-Sync.zip
+          unzip -o SPACEQ-Pure-Player-2.6.1-AndroidX-Fix.zip
           echo "ZIP extracted"
           find . -maxdepth 3 -type f | head -100
 
