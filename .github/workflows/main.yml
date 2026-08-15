@@ -13,7 +13,7 @@ jobs:
 
       - name: Extract SPACEQ Player ZIP
         run: |
-          unzip -o SPACEQ-Pure-Player-2.6.4-Kotlin-Placement-Fix.zip
+          unzip -o SPACEQ-Pure-Player-2.6.5-BackgroundColor-Fix.zip
           echo "ZIP extracted"
           find . -maxdepth 3 -type f | head -100
 
